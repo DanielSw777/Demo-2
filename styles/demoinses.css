@@ -1,0 +1,91 @@
+*{
+    margin: auto;
+    padding: auto;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #000017;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.formulario{
+    background-color: #5531BB;
+    text-align: center;
+    border: 5px solid #150241;
+    border-radius: 50px;
+    width: 450px;
+    height: 520px;
+}
+
+.titulo{
+    color: #C2C7CE;
+    font-size: 45px;
+    margin: 20px 0px;
+}
+
+label{
+    color: #C2C7CE;
+    font-size: 25px;
+    margin: 10px 0px;
+}
+
+.rellenar{
+    font-size: 20px;
+    border: 3px solid #C2C7CE;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+.subir{
+    background-color: #C2C7CE;
+    color: #150241;
+    font-size: 25px;
+    border: 2px solid #C2C7CE;
+    border-radius: 10px;
+    margin: 30px 0px;
+}
+
+a{
+    color: #ffff;
+}
+
+.preguntar{
+    color: #C2C7CE;
+    font-size: 25px;
+}
+
+.olvidoContraseña{
+    font-size: 20px;
+}
+
+.username{
+    margin: 50px 0px 0px 0px;
+}
+
+.contraseña{
+    margin: 30px 0px 0px 0px;
+}
+
+.recordar{
+    margin: 20px 0px 0px 0px;
+}
+
+/*Pseudo-clases*/
+a:active{
+    color: #000017;
+}
+.rellenar:valid{
+    border-color: rgb(34, 161, 34);
+}
+.subir:hover{
+    box-shadow: 0 0 0.5em 0.25em #070f2b,
+    0 0 3em 0.5em #9290c3;
+    background-color: #535c91;
+}

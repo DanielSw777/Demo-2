@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="../styles/demoinses.css" rel="stylesheet">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="formulario">
+            <h1 class="titulo">Iniciar Sesión</h1>
+            <form method="post" id="loginForm">
+                <div class="username">
+                    <label for="username">Nombre de usuario</label>
+                    <br>
+                    <input class="rellenar" type="text" required placeholder="Nombre" id="username">
+                    <span></span>
+                </div>
+                <div class="contraseña">
+                    <label for="password">Contraseña</label>
+                    <br>
+                    <input class="rellenar" type="password" required placeholder="Contraseña" autocomplete="false" id="password">
+                    <span></span>
+                </div>
+                <div class="recordar">
+                    <a class="olvidoContraseña" href="#">¿Olvidó su contraseña?</a>
+                </div>
+                <input class="subir" type="submit" value="Iniciar">
+                <div class="registrarse">
+                    <p class="preguntar">Quiero hacer el <a href="demoregistro.html">registro</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="../js/inisio_sesion.js"></script>
+</body>
+</html>
